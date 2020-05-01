@@ -6,6 +6,8 @@ namespace RapiSolver.Entity
     {
           public int SupplierId{get;set;}
 
-        
+          public  IEnumerable<ServiceDetails> ServiciosDetails{get;set;}
+
+          public IEnumerable<Recommendation> Recommendations{get;set;}
     }
 }
